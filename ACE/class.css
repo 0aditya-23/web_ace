@@ -1,0 +1,252 @@
+h1+p{
+    font-size:200%;
+    color:red;
+
+}
+body{
+    background: white;
+    display: block;
+    padding: 0px;
+    margin: 2px;
+  
+    
+  
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.container1{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+    
+    
+}
+.a,.b,.c{
+    display: flex;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+.b,.c{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.head-content{
+    padding-left: 80px;
+    width: 85px;
+    height: 85px;
+}
+.e{
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 70px;
+}
+.container3{
+    height:85vh;
+    width: 100%;
+    background-image: url(R.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animate{
+    0%{
+        background-image: url(R.jpg);
+    }20%{
+        background-image: url(OIP\ \(2\).jpg);
+    }40%{
+        background-image: url(OIP\ \(3\).jpg);
+    }60%{
+        background-image: url(OIP\ \(4\).jpg);
+    }80%{
+        background-image: url(OIP\ \(5\).jpg);
+    }100%{
+        background-image: url(OIP\ \(6\).jpg);
+    }
+
+}
+.container3-a{
+    width:35%;
+    height: 67vh;
+    float: right;
+   
+    margin-right: 50px;
+   margin-top: 30px;
+   background-color: white;
+   border-radius: 6px;
+   padding: 30px;
+}
+/* Google Fonts - Poppins */
+.a2{
+    display: flex;
+    flex-direction: row;
+
+}
+.line{
+    display: flex;
+    flex-direction: row;
+}
+.google-img {
+    height:20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    
+}
+.meta-img{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.a1{
+    text-align: center;
+}
+.media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.meta-img{
+    padding: 10px;
+}
+.google-img{
+    padding: 10px;
+}
+.emailtext{
+    font-weight: bold;
+}
+
+#email{
+    width: 417px;
+    
+    padding: 7px;
+    
+}
+.passtext{
+    padding-top: 15px;
+    font-weight: bold;
+}
+#password{
+    width: 417px;
+    padding: 7px;
+}
+.a4{
+    padding-left: 200px;
+}
+.a2{
+    padding-top:15px ;
+}
+.a5{
+    padding-top: 15px;
+    
+    
+}
+.btn{
+    padding: 10px;
+    width: 100%;
+    background-color: skyblue;
+    border-radius: 4px;
+    border: skyblue;
+}
+.a6{
+    text-align: center;
+}
+.media-options{
+    padding: 5px;
+}
+.container4{
+    text-align: center;
+    
+}
+.a4_line{
+    
+    background-color: rgba(26, 26, 230, 0.844);
+    margin-top:  45px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.container6{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.form1,.form2{
+    width: 50%;
+}
+.name-email{
+    display: flex;
+    flex-direction: row;
+}
+.email2{
+    display: flex;
+    flex-direction: column;
+}
+.input-group{
+    display: flex;
+    flex-direction: row;
+    padding-left: 75px;
+    padding-right: 148px;
+}
+.college{
+    display: flex;
+    flex-direction: column;
+}
+.roll{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 38%;
+}
+.roll-branch{
+    display: flex;
+    flex-direction: row;
+}
+.branch{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 40px;
+   
+    
+}
+.massege-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 75px;
+    width: 74%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.form2-box{
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    margin-right: 77px;
+    margin-bottom: 80px;
+    margin-left: 30px;
+}
+.form1-box{
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    margin-right: 40px;
+    margin-left: 77px;
+}
